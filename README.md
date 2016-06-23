@@ -1,0 +1,2 @@
+# magnusnyquist.github.io
+O
