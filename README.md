@@ -1,2 +1,2 @@
 # magnusnyquist.github.io/nyquist.org
-2017
+2018
