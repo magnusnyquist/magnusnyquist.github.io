@@ -7,18 +7,60 @@
         <meta name="description" content="WWWORKS">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style type="text/css">
+        html{
+            font-size: 100%;
+            -webkit-text-size-adjust: 100%;
+            font-variant-ligatures: none;
+            -webkit-font-variant-ligatures: none;
+            text-rendering: optimizeLegibility;
+            -moz-osx-font-smoothing: grayscale;
+            font-smoothing: antialiased;
+            -webkit-font-smoothing: antialiased;
+            text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+        }
         body{
-        	margin: 20px;
+        	margin: 0 0;
         	font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
         	letter-spacing: 0.02em;
-        	font-size: 1em;
+        	font-size: 0.9em;
+            background: #111;
+            line-height: 1.1;
+            color: #00E582;
+        }
+        a, a:link, a:active, a:visited{
+            color: #00E582;
+        }
+        header{
+            margin-bottom: 30vh;
         }
         h1{
         	letter-spacing: -0.01em;
-        	font-size: 3em;
-        	font-size: 6vw;
+        	font-size: 1.5em;
         	font-weight: normal;
-        	margin: 0;
+        	margin: 2px 20px;
+        }
+        .works{
+            width: 100%;
+            max-width: 1800px;
+        }
+        .work{
+            width: 100%;
+            float: left;
+            position: relative;
+            color: #FFF;
+        }
+        .work-image figure{
+            margin:0;
+        }
+        .work-image figure figcaption{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .work-image img{
+            width: 100%;
+            height: auto;
+            vertical-align: bottom;
         }
         </style>
     </head>
@@ -26,8 +68,57 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You might be happy, but you are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <header>
+            <h1>
+                BOOKS AND PUBLICATIONS designed by Magnus Nyquist<br>
+                Studio at Georgernes Verft 12, 5011 Bergen<br>
+                <a href="tel:004741428285">+47 414 28 285</a>, <a href="mailto:post@magnusnyquist.com">Email</a>
+            </h1>
+        </header>
+        <div class="works">
 
-        <h1>WWWORKS</h1>
+            <div class="work">
+                <div class="work-image">
+                    <figure>
+                        <img src="content/w-2.jpg"/>
+                        <figcaption style="color:#3c3cbe;">LASSE ÅRIKSTAD – <em>BETALT OPPRØR</em><br>48 pages, Newsprint<br>Published by Lasse Årikstad, 2018<figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="work">
+                <div class="work-image">
+                    <figure>
+                        <img src="content/w-1.jpg"/>
+                        <figcaption style="color:#be3c3c;">SCOTT ELLIOTT – <em>THE EL DORADO COMISSION</em><br>144 pages, Hardcover<br>Published by Publication Studio Vancouver</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="work span-2">
+                <div class="work-image">
+                    <figure>
+                        <img src="content/w-3.jpg"/>
+                        <figcaption>SOPHIE IREMONGER – <em>AN EATING</em><br>Softcover, 128 pages, offset <br>Written by <br>Published by Coda Press</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="work">
+                <div class="work-image">
+                    <figure>
+                        <img src="content/w-5.jpg"/>
+                        <figcaption style="color:#181823;">KOBIE NEL – <em>BLACK LAKE MONOLOGUE</em><br>Hardcover, 96 pages <br>Published by Coda Press</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="work">
+                <div class="work-image">
+                    <figure>
+                        <img src="content/w-4.jpg"/>
+                        <img src="content/w-4-1.jpg"/>
+                        <figcaption>SYNSMASKINEN (UiB) – <em>2061 INMORAL LIDOS</em><br>Softcover, 160 pages <br>Published by Space Poetry</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
 
     </body>
 </html>
